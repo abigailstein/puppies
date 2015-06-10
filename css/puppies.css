@@ -5,7 +5,7 @@
 body {
   font-family: tahoma, geneva, sans-serif;
   background-color: #FFCCE0;
-  background-image: url("/puppies/images/bg.jpg");
+  background-image: url("../images/bg.jpg");
 }
 
 .navbar {
