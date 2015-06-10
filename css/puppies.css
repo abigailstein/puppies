@@ -1,0 +1,60 @@
+/*
+ * CSS for puppies.com
+ */
+
+body {
+  font-family: tahoma, geneva, sans-serif;
+  background-color: #FFCCE0;
+  background-image: url("/puppies/images/bg.jpg");
+}
+
+.navbar {
+  width: 800px;
+  background-color: #FFFF66;
+  color: white;
+  padding: 6px 0px 6px 0px;
+}
+
+.buttons {
+  padding: 6px;
+  margin: 6px;
+}
+
+.button {
+  background-color: #FF99C2;
+  color: #FFCCE0;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 9px;
+}
+
+.main {
+  width: 800px;
+  text-align: center;
+  padding: 15px;
+}
+
+.main-inner {
+  margin: 0 auto;
+}
+
+.main-descrip {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 10px;
+  width: 800px;
+  height:170px;
+  background-color: #FFFF66;
+  color: #FF99C2;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-title {
+  font-size: 2em;
+}
