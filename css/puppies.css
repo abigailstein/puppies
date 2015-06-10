@@ -44,6 +44,29 @@ body {
   font-weight: bold;
 }
 
+.questions-outer{
+  width: 100%;
+  text-align: center;
+}
+
+.questions {
+  background-color: #000066;
+  color: white;
+  width: 500px;
+  padding: 10px;
+  margin:0 auto;
+}
+
+.questions-inner {
+  width: 300px;
+  text-align: center;
+  margin:0 auto;
+}
+
+.submit {
+  padding: 15px;
+}
+
 .footer {
   padding: 10px;
   width: 800px;
