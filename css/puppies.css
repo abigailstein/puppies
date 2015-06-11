@@ -1,0 +1,196 @@
+/*
+ * puppies.css
+ */
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url('../images/puppies-frontmedium.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: right;
+  color: black;
+  font-family: 'Chewy', cursive;
+  }
+
+header .intro-text {
+  padding-top: 210px;
+  padding-bottom: 210px;
+  min-height: 420px;
+}
+
+header .intro-text .intro-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 768px) {
+  header .intro-text {
+    text-align: right;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    min-height: 500px;
+  }
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    background-image: url('../images/puppies-frontwide.jpg');
+  }
+  header .intro-text {
+    text-align: right;
+    padding-top: 500px;
+    min-height: 1000px;
+  }
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+section {
+  padding: 100px 0;
+  background-color: #FFFFE0;
+
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+
+.carousel-slide{
+  width: 100px;
+  margin: 0 auto;
+}
+
+.carousel-inner{
+  width: 600px;
+  margin:0 auto;
+}
+
+.carousel-caption{
+  color: #FFFF66;
+}
+
+.carousel-control.left{
+  background: linear-gradient(to right, #FFFFE0, #FFFFE0);
+  width:75px;
+  position: absolute;
+}
+
+.carousel-control.right{
+  background: linear-gradient(to left, #FFFFE0, #FFFFE0);
+  width: 75px;
+  position: absolute;
+}
+
+
+.contactwrap-wide{
+  text-align: center;
+}
+
+.contactbutton{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact-table{
+  background-color: black;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-td{
+  padding: 20px;
+}
+
+.contactform-narrow{
+  padding: 20px;
+}
+
+.contactform-wide{
+  padding:10px;
+  text-align: center;
+  width: 400px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: #FFFFE0;
+  }
+
+h3,p{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  }
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.navbar-collapse{
+  font-family: 'Raleway', sans-serif;
+}
+
+.form-group{
+  font-family: 'Raleway', sans-serif;
+}
+
+.careandfeeding{
+   background-color: #6B0024;
+   color: white;
+}
+
+.caretext{
+  width: 1000px;
+  margin: 0 auto;
+}
