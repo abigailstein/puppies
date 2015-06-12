@@ -17,7 +17,7 @@ header {
   -o-background-size: cover;
   text-align: right;
   color: black;
-  font-family: 'Chewy', cursive;
+  font-family: 'Snowburst One', cursive;
   }
 
 header .intro-text {
@@ -66,8 +66,8 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
+    font-size:33px;
+    line-height: 33px;
     margin: 0px;
     padding: 15px;
     background: rgba(255, 255, 255, 0.5);
@@ -76,7 +76,7 @@ header .intro-text .intro-heading {
 
 section {
   padding: 100px 0;
-  background-color: #FFFFE0;
+  /*background-color: #FFFFE0;*/
 
 }
 
@@ -102,7 +102,7 @@ section h3.section-subheading {
 }
 
 
-.carousel-slide{
+/*.carousel-slide{
   width: 100px;
   margin: 0 auto;
 }
@@ -110,7 +110,7 @@ section h3.section-subheading {
 .carousel-inner{
   width: 600px;
   margin:0 auto;
-}
+}*/
 
 .carousel-caption{
   color: #FFFF66;
@@ -118,14 +118,16 @@ section h3.section-subheading {
 
 .carousel-control.left{
   background: linear-gradient(to right, #FFFFE0, #FFFFE0);
-  width:75px;
-  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
 }
 
 .carousel-control.right{
   background: linear-gradient(to left, #FFFFE0, #FFFFE0);
-  width: 75px;
-  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
 }
 
 
@@ -177,8 +179,35 @@ h4{
   margin-top: 0px;
 }
 
-.navbar-collapse{
+h5{
   font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.navbar-collapse {
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFE0;
+  background-color: #6B0024;
+}
+
+.navbar-fixed-top {
+  background-color: #6B0024;
+  border-color: #6B0024;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:link,
+.navbar-default .navbar-nav li a:visited,
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:active {
+  color: #FFFFE0;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: black;
+  font-weight: bold;
 }
 
 .form-group{
@@ -186,11 +215,35 @@ h4{
 }
 
 .careandfeeding{
-   background-color: #6B0024;
-   color: white;
+   background-color: #FFFFE0;
+   color: black;
 }
 
 .caretext{
   width: 1000px;
   margin: 0 auto;
+}
+
+.buypup{
+  background-color: #6B0024;
+  color: white;
+}
+
+.pics{
+  background-color: #FFFFE0;
+  color: black;
+}
+
+.form{
+  background-color: #6B0024;
+  color: white;
+}
+
+.about{
+  background-color: #FFFFE0;
+  color: black;
+  /*background-image: url("../images/bg.jpg");*/
+  text-align: center;
+  font-family: 'Snowburst One', cursive;
+  font-size: 40px;
 }

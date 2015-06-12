@@ -12,7 +12,7 @@
   <meta property="og:description" content="For all your puppy needs." />
   <meta property="og:image" content="http://playground.litkicks.net/puppies/images/puppiesbanner.jpg" />
 
-  <link href='http://fonts.googleapis.com/css?family=Raleway|Indie+Flower|Chewy|Lobster+Two' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway|Indie+Flower|Chewy|Lobster+Two|Snowburst+One|Londrina+Outline' rel='stylesheet' type='text/css'>
 
   <title>puppies.com</title>
 
@@ -88,8 +88,8 @@
     </div>
   </header>
 
-  <section id="pictures" class="gray">
-    <h2>PICTURES</h2>
+  <section id="pictures" class="pics">
+    <h2 class="pics">PICTURES</h2>
 
     <!-- carousel -->
 
@@ -145,11 +145,13 @@
 
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
+          <span><img src="images/bone.png"></span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
+          <span><img src="images/bone2.png" style="filter:FlipH"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -157,25 +159,25 @@
       <!-- end of carousel -->
     </section>
 
-    <section id="buy" class="black">
-      <h2>BUY A PUPPY</h2>
+    <section id="buy" class="buypup">
+      <h2 class="buypup">BUY A PUPPY</h2>
     </section>
     <section id="care" class="careandfeeding">
       <h2 class="careandfeeding">CARE AND FEEDING</h2>
       <div class="row">
       <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
       <div class="caretext">
-      <h4 class="careandfeeding">Puppies need lots of love and care. This includes a minimum of 20 snuggles and/or belly rubs a day. They also need proper exercise - a run around the park or a nice game of fetch always does the trick. Keeping your puppy groomed is also important to avoid fleas or ticks, and an occasional bath is necessary to clean and unstink them! Puppies need different amounts of food depending on their age and size. Send us a message below or consult your local veterinarian to know what's right for your puppy.<br><br><img height="100%" width="100%" src="images/eating.jpg">  </h4>
+      <h4 class="careandfeeding">Puppies need lots of love and care. This includes a minimum of 20 snuggles and/or belly rubs a day. They also need proper exercise - a run around the park or a nice game of fetch always does the trick. Keeping your puppy groomed is also important to avoid fleas or ticks, and an occasional bath is necessary to clean and unstink your furry friend! Puppies need different amounts of food depending on their age and size. Send us a message below or consult your local veterinarian to know what's right for your puppy.<br><br><img height="100%" width="100%" src="images/eating.jpg">  </h4>
       </div>
     </div>
       <div class="col-xs-12 col-sm-12 hidden-md hidden-lg hidden-xl">
-      <h4>Puppies need lots of love and care. This includes a minimum of 20 snuggles and/or belly rubs a day. They also need proper exercise - a run around the park or a nice game of fetch always does the trick. Keeping your puppy groomed is also important to avoid fleas or ticks, and an occasional bath is necessary to clean and unstink them! Puppies need different amounts of food depending on their age and size. Send us a message below or consult your local veterinarian to know what's right for your puppy. </h4>
+      <h4>Puppies need lots of love and care. This includes a minimum of 20 snuggles and/or belly rubs a day. They also need proper exercise - a run around the park or a nice game of fetch always does the trick. Keeping your puppy groomed is also important to avoid fleas or ticks, and an occasional bath is necessary to clean and unstink your furry friend! Puppies need different amounts of food depending on their age and size. Send us a message below or consult your local veterinarian to know what's right for your puppy. </h4>
     </div>
 </div>
     </section>
 
-    <section id="form" class="white">
-      <h2>FORM</h2>
+    <section id="form" class="form">
+      <h2 class="form">QUESTIONS?</h2>
 
       <!-- Contact Section -->
 
@@ -260,9 +262,33 @@
 
       </section>
 
-      <section id="about" class="orange">
-        <h2>ABOUT</h2>
-      </section>
+      <section id="about" class="about">
+        <!-- <h2 class="about">ABOUT</h2> -->
+        <div class="row">
+          Thanks for visiting! &#9825 <p><p>
+            <img src="images/pupgif.gif" height= "300" width="289">
+        </div>
+        <div class="row"><br>
+            <div class="col-xs-6">
+              <h2>Follow us here!</h2><p>
+              <a href="https://www.facebook.com/DogsAreMyFavoritePeople">
+              <img src="images/facebook.png" alt="Facebook" height= "75" width="75">
+              </a>
+              <a href="https://instagram.com/dogsofinstagram/">
+              <img src="images/insta.png" alt="Instagram" height= "75" width="75">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <h5><br><br>puppies.com<p><p>
+              a website by abigail eleanor stein
+              <br>
+              copyright june 2015
+              <br>
+              <img src="images/foot.png" height="40" width="40">
+            </h5>
+            </div>
+        </div>
+        </section>
 
 
       <footer>
@@ -286,5 +312,8 @@
       <!-- Contact Form JavaScript -->
       <script src="js/jqBootstrapValidation.js"></script>
       <script src="js/contact_me.js"></script>
+
+      <!-- make it scroll!!! -->
+      <script src="js/puppies.js"></script>
     </body>
     </html>
